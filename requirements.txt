@@ -2,3 +2,6 @@ httpx
 fastmcp
 uv
 python-dotenv
+git
+Ollama API
+streamlit
