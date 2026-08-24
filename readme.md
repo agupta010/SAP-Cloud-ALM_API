@@ -42,3 +42,23 @@ Create a `.env` file beside `server.py`:
 
 ```text
 SAP_API_KEY=YOUR_SANDBOX_API_KEY
+
+**Project Structure**
+
+SAP-Cloud-ALM_API/
+│
+├── server.py
+├── requirements.txt
+├── .env
+├── README.md
+└── src/
+    ├── projects.py
+    ├── tasks.py
+    ├── deliverables.py
+    ├── landscapes.py
+    └── status_events.py
+
+
+
+
+
