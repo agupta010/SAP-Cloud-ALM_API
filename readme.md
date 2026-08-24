@@ -1,6 +1,18 @@
 # SAP Cloud ALM MCP Server
 
 A lightweight Model Context Protocol (MCP) server that exposes selected SAP Cloud ALM Sandbox APIs as MCP tools.
+Overview
+SAP Cloud ALM MCP Server exposes selected SAP Cloud ALM APIs as MCP-compatible tools, allowing AI clients such as VS Code, GitHub Copilot, Claude Desktop, MCP Inspector, and other MCP-enabled applications to interact directly with SAP Cloud ALM.
+By bridging SAP Cloud ALM and MCP, users can retrieve project information, explore landscapes, track deliverables, and analyze operational status using conversational AI.
+
+**Key Features**
+
+Exposes SAP Cloud ALM APIs as MCP tools
+Simple Python-based implementation
+Uses SAP Business Accelerator Hub Sandbox APIs
+Compatible with MCP-enabled AI clients
+Environment-based configuration
+Easy to extend with additional SAP Cloud ALM APIs
 
 ## Features
 
