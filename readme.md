@@ -12,19 +12,23 @@ The server provides the following MCP tools:
 - `get_alm_tasks`
 - `get_alm_deliverables`
 
-## Architecture
-
-VS Code / MCP Inspector
-        |
-        v
-SAP Cloud ALM MCP Server
-        |
-        v
-SAP Business Accelerator Hub Sandbox
-        |
-        v
-SAP Cloud ALM APIs
-
++--------------------------+
+| MCP Client               |
+| (VS Code, Copilot, etc.) |
++------------+-------------+
+             |
+             | MCP
+             v
++--------------------------+
+| SAP Cloud ALM MCP Server |
++------------+-------------+
+             |
+             | REST APIs
+             v
++--------------------------+
+| SAP Business Accelerator |
+| Hub Sandbox APIs         |
++--------------------------+
 ## Requirements
 
 - Python 3.10+
